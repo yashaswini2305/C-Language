@@ -1,0 +1,10 @@
+#include<stdio.h>
+#includ<conio.h>
+void main()
+{
+int a=20,b=30,c;
+clrscr();
+c=a+b;
+printf("The addition of two numbers is %d",c);
+getch();
+}
