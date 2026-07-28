@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a=50,b=20,c;
+clrscr();
+c=a*b;
+printf("The product of a and b is %d",c);
+getch();
+}
