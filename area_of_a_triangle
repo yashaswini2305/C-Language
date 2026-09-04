@@ -1,0 +1,13 @@
+/#Area of a triangle .* /
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,h;
+clrscr();
+printf("Enter the values of breadth and height:");
+scanf("%d%d",&b,&h);
+a=(b*h)/2;
+printf( “The area of the triangle is %d",a);
+getch();
+}
