@@ -1,0 +1,14 @@
+/*Surface area of a cylinder .* /
+#include<stdio.h>
+#include<conio.h>
+#define PI 3.14;
+void main()
+{
+float s,r,h;
+clrscr();
+printf( “Enter the values of r and h:");
+scanf(“ %f%f",&r,&h);
+s=2*3.14*r*h;
+printf( “The surface area of a cylinder is %f",s);
+getch():
+}
