@@ -1,0 +1,14 @@
+/*Volume of a cylinder .* /
+#include<stdio.h>
+#include<conio.h>
+#define PI 3.14;
+void main()
+{
+float v,r,h;
+clrscr();
+printf("Enter the values of r and h");
+scanf ("%f%f",&r, &h);
+v=2*3.14*r*r*h;
+printf("The volume of a cylinder is %f",v);
+getch();
+}
